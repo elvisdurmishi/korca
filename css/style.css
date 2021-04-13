@@ -311,4 +311,20 @@ section .booking {
   section .container {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .booking-content {
+    position: relative;
+    margin-right: 0;
+  }
+
+  section .booking {
+    padding: 0.5rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .interior {
+    margin-left: 0;
+    width: 100%;
+  }
 }
