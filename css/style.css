@@ -335,5 +335,11 @@ section .booking {
     width: 100%;
   }
 
+  .btn {
+    width: 25%;
+    top: 5px;
+    right: 5px;
+  }
+
   /* Changes */
 }
