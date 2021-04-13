@@ -266,6 +266,10 @@ input {
   width: 100%;
 }
 
+input:disabled {
+  background: #fff;
+}
+
 label {
   font-size: 1rem;
   font-weight: 400;
