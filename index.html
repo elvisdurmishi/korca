@@ -9,6 +9,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Korca</title>
   </head>
@@ -52,7 +58,7 @@
       <img
         id="sky"
         class="sky translate"
-        data-speed="0.3"
+        data-speed="0.2"
         src="./images/Sky_day.png"
         alt="sky"
       />
@@ -80,13 +86,42 @@
         </div>
       </div>
     </section>
-    <!-- 
-    <img
-      id="main-cover"
-      class="cover-image"
-      src="./images/korca_day.jpg"
-      alt="Korca Pedonale"
-    /> -->
+
+    <section>
+      <div class="container booking">
+        <div class="booking-content">
+          <div class="card">
+            <h1 class="card-title">Vacation rentals in Korçë County</h1>
+            <p class="card-description">
+              Find and book unique accommodations on Airbnb
+            </p>
+            <div id="floatContainer1" class="float-container">
+              <label for="floatField1">LOCATION</label>
+              <input
+                disabled
+                value="Korçë County, Albania"
+                type="text"
+                id="floatField1"
+                data-placeholder="Placeholder 1"
+              />
+            </div>
+            <a
+              class="search-btn"
+              href="https://www.airbnb.com/s/Kor%C3%A7%C3%AB-County--Albania/homes?adults=1&place_id=ChIJo4MyMRN1WhMRgft6g3xpYJw&refinement_paths%5B%5D=%2Fhomes"
+              target="_blank"
+              ><i class="fas fa-search"></i>Search</a
+            >
+          </div>
+        </div>
+        <div class="booking-image">
+          <img
+            class="interior"
+            src="./images/interior.jpg"
+            alt="house interior"
+          />
+        </div>
+      </div>
+    </section>
     <script src="./js/index.js"></script>
   </body>
 </html>
