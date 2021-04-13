@@ -152,7 +152,9 @@ nav .container {
   right: 0;
   padding: 1rem 2rem;
   text-align: center;
-  background-color: #2f5fff;
+  width: 10%;
+  border-radius: 15px;
+  background-color: #db0b64;
   color: #fff;
   border: none;
   outline: none;
@@ -287,6 +289,7 @@ label {
 .search-btn::before,
 .search-btn::after {
   color: #fff;
+  text-align: center;
   text-decoration: none;
   background: #db0b64;
   width: 100%;
