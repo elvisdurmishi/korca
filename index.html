@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Korca</title>
+  </head>
+  <body>
+    <div class="container">
+      <button onclick="changeCover()" id="time-btn" class="btn">Night</button>
+    </div>
+    <header>
+      <nav>
+        <div class="container">
+          <h3 class="logo">Korca <span>city</span></h3>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
+
+      <h1 class="big-title translate" data-speed="0.1">Discover Korca.</h1>
+
+      <img
+        id="city"
+        class="city translate"
+        data-speed="-0.35"
+        src="./images/City_day.png"
+        alt="city-day"
+      />
+      <img
+        id="katedralja"
+        class="katedralja translate"
+        data-speed="-0.2"
+        src="./images/Katedralja_day.png"
+        alt="katedralja"
+      />
+      <img
+        id="mountain"
+        class="mountain translate"
+        data-speed="0.2"
+        src="./images/Mountain_day.png"
+        alt="mountain"
+      />
+      <img
+        id="sky"
+        class="sky translate"
+        data-speed="0.3"
+        src="./images/Sky_day.png"
+        alt="sky"
+      />
+    </header>
+
+    <section>
+      <div class="shadow"></div>
+      <div class="container">
+        <div class="content">
+          <h3 class="title">
+            About
+            <div class="border"></div>
+          </h3>
+          <p class="text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+            corporis, sint consectetur voluptatibus nemo provident illo quidem
+            laboriosam iure cum libero ad earum. Impedit consequatur facilis vel
+            iure minima eligendi atque temporibus expedita, aspernatur,
+            perferendis ex illo quaerat ad harum corrupti consectetur
+            repudiandae.
+          </p>
+        </div>
+        <div class="imgContainer">
+          <img src="./images/korca1.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- 
+    <img
+      id="main-cover"
+      class="cover-image"
+      src="./images/korca_day.jpg"
+      alt="Korca Pedonale"
+    /> -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
